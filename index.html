@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>test</title>
+</head>
+<body>
+  <section>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="right-quote.png" class="quote">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nisi laboriosam eaque eligendi, totam distinctio asperiores 
+                laudantium voluptatibus voluptate doloremque consectetur 
+                suscipit placeat dolores nam ipsam. Rerum itaque in 
+                doloribus temporibus!</p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="user.png">
+                  </div>
+                  <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="right-quote.png" class="quote">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nisi laboriosam eaque eligendi, totam distinctio asperiores 
+                laudantium voluptatibus voluptate doloremque consectetur 
+                suscipit placeat dolores nam ipsam. Rerum itaque in 
+                doloribus temporibus!</p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="user.png">
+                  </div>
+                  <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="right-quote.png" class="quote">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nisi laboriosam eaque eligendi, totam distinctio asperiores 
+                laudantium voluptatibus voluptate doloremque consectetur 
+                suscipit placeat dolores nam ipsam. Rerum itaque in 
+                doloribus temporibus!</p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="user.png">
+                  </div>
+                  <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonialBox">
+            <img src="right-quote.png" class="quote">
+            <div class="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nisi laboriosam eaque eligendi, totam distinctio asperiores 
+                laudantium voluptatibus voluptate doloremque consectetur 
+                suscipit placeat dolores nam ipsam. Rerum itaque in 
+                doloribus temporibus!</p>
+                <div class="details">
+                  <div class="imgBx">
+                    <img src="user.png">
+                  </div>
+                  <h3>Someone Famous<br><span>Creative Designer</span></h3>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0, // 슬라이드 옆과 옆 사이 간격
+        stretch: 0,
+        depth: 100,
+        modifier: 2, // 슬라이드 앞장과 뒷장 사이의 간격(높이)
+        slideShadows: true,
+      },
+      loop: true, // 루프생성 -> 내가 만든 슬라이드 4개가 계속 반복
+    });
+  </script>
+
+</body>
+</html>
